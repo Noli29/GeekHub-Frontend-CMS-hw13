@@ -3,23 +3,30 @@
 }
 
 main .product{
-  //padding-top: 100px;
+  padding-top: 250px;
   height: 540px;
   background: url("../images/back.png");
 }
-.product h1{
-  font-family: $font;
-  line-height: 48px;
-  color: $color-blue;
-  font-size: 72px;
-  font-weight: $font-weight-h1;
+.product {
+
+  .blue{
+    display: inline-block;
+
+    width: 837px;
+    height: 216px;
+    opacity: 0.5;
+    background: #21699c;
+  }
+
+  h1{
+    color: $color-white;
+    text-align: $text-l;
+    font-family: $font;
+    font-size: 60px;
+    font-weight: $font-weight-p;
+    line-height: 56px;
+    padding-bottom: 25px;
+  }
 }
 
-.product p{
-  font-family: $font;
-  line-height: 48px;
-  color: $color-gray;
-  font-size: 36px;
-  font-weight: $font-weight-p;
-  padding-bottom: 70px;
-}
+

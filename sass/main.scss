@@ -1,8 +1,14 @@
-@import "variables";
+@import "utils/variables";
 
-@import "layout";
+@import "components/buttons";
 
-@import "header";
-@import "base";
-@import "footer";
+@import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
 
+@import "pages/base";
+@import "pages/catalog";
+@import "pages/info";
+@import "pages/text-pade";
+
+@import "utils/media";

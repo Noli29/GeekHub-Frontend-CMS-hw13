@@ -42,8 +42,40 @@ padding-bottom: 0;
       width: 400px;
     }
     padding-bottom: 25px;
-
   }
+
+
+
+main .catalog {
+  width: 65%;
+  float: left;
+  text-align: $text-l;
+  padding-top: 40px;
+padding-left: 55px;
+
+
+  .catalog-icon div {
+    display: inline-block;
+    margin: 10px 10px;
+
+    .text {
+      width: 200px;
+      display: block;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      text-align: $text-c;
+
+      &:nth-child(2n+1) {
+        margin-right: 0;
+      }
+
+    }
+
+    }
+  }
+
+
+
 
 
 
@@ -52,6 +84,25 @@ padding-bottom: 0;
 
 @media screen and (min-width: 768px) {
 
+  main .info {
+    height: 100%;
+
+    .item {
+      padding-left: 0;
+      width: 750px;
+    }
+    padding-bottom: 25px;
+  }
+  main .catalog {
+    .catalog-icon div {
+      .text {
+        width: 190px;
+        &:nth-child(2n+1) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {

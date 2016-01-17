@@ -21,21 +21,27 @@ main {
         padding-top: 25px;
         li{
           overflow: hidden;
-          color: $color-white;
-          font-family: $font;
-          font-size: 14px;
-          font-weight: 900;
-          line-height: 28px;
+          a{
+            color: $color-white;
+            font-family: $font;
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 28px;
+            text-decoration: none;
+          }
         }
       }
       .list{
         li{
           overflow: hidden;
-          color: #ffde6c;
-          font-family: $font;
-          font-size: 12px;
-          font-weight: $font-weight-h3;
-          line-height: 21px;
+          a{
+            color: #ffde6c;
+            font-family: $font;
+            font-size: 12px;
+            font-weight: $font-weight-h3;
+            line-height: 21px;
+          }
+
         }
       }
     }

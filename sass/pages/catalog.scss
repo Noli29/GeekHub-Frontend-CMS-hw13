@@ -65,3 +65,51 @@ main {
 
   }
 }
+
+.check .check-icon div {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.check .check-icon div span {
+  display: block;
+  margin: 10px auto 0;
+  text-decoration: none;
+
+}
+
+.check .item {
+  width: 240px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: $color-g-g;
+  text-align: $text-c;
+
+}
+
+.check .item:nth-child(4n+1) {
+  margin-right: 0;
+}
+
+.check .item .picture {
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.check .item .info h3 {
+  font-family: $font;
+  color: $color-gray;
+  font-size: 25px;
+  font-weight: $font-weight-h1;
+  line-height: 48px;
+}
+
+.check .item .info p {
+  font-family: $font;
+  color: $color-w-gray;
+  font-size: 18px;
+  font-weight: $font-weight-p;
+  line-height: 30px;
+}

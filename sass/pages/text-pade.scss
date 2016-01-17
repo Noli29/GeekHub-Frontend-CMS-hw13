@@ -1,13 +1,11 @@
-.m-page{
-  margin: 0 auto;
-}
-
 main .text{
-  height: 800px;
+  padding-bottom: 25px;
+  height: 100%;
   background: $color-white;
   text-align: $text-l;
 
   h1 {
+    padding: 25px 0 25px 0;
     text-align: $text-l;
     color: #646464;
     font-family: $font;

@@ -1,0 +1,67 @@
+main {
+  .title {
+    width: 35%;
+    float: left;
+
+    h1{
+      color: #646464;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: 100;
+      line-height: 48px;
+    }
+
+    .block3{
+      text-align: $text-l;
+      width: 226px;
+      height: 605px;
+      background: #dfad00;
+      display: inline-block;
+      .sol{
+        padding-top: 25px;
+        li{
+          overflow: hidden;
+          color: $color-white;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: 900;
+          line-height: 28px;
+        }
+      }
+      .list{
+        li{
+          overflow: hidden;
+          color: #ffde6c;
+          font-family: $font;
+          font-size: 12px;
+          font-weight: $font-weight-h3;
+          line-height: 21px;
+        }
+      }
+    }
+
+
+  }
+
+  .catalog {
+    width: 65%;
+    float: left;
+    text-align: $text-l;
+    padding-top: 40px;
+
+    span{
+      font-family: $font;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+      color: #323232;
+
+      &:hover{
+        color: #dfad00;
+      }
+
+    }
+
+
+  }
+}

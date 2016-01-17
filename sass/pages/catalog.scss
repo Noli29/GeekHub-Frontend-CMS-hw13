@@ -83,7 +83,7 @@ main {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 10px;
-  color: $color-g-g;
+
   text-align: $text-c;
 
 }
@@ -100,7 +100,6 @@ main {
 
 .check .item .info h3 {
   font-family: $font;
-  color: $color-gray;
   font-size: 25px;
   font-weight: $font-weight-h1;
   line-height: 48px;
@@ -108,7 +107,6 @@ main {
 
 .check .item .info p {
   font-family: $font;
-  color: $color-w-gray;
   font-size: 18px;
   font-weight: $font-weight-p;
   line-height: 30px;

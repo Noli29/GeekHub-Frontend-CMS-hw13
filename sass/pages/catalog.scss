@@ -40,7 +40,6 @@ main {
       }
     }
 
-
   }
 
   .catalog {
@@ -100,6 +99,60 @@ main {
         position: relative;
         overflow: hidden;
 
+
+        .text p {
+          color: #323232;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: $font-weight-h3;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+
+  .watch{
+
+    h2{
+      color: #646464;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: $font-weight-p;
+      line-height: 36px;
+      text-align: $text-l;
+    }
+
+    .watch-icon div {
+      background: #e0e2e2;
+      display: inline-block;
+      margin: 10px 10px;
+
+      .text {
+        background: #e0e2e2;
+        width: 150px;
+        display: block;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        text-align: $text-l;
+
+        &:nth-child(6n+1) {
+          margin-right: 0;
+        }
+
+        .price{
+          text-align: $text-l;
+          color: #4c93c3;
+          font-family: $font;
+          font-size: 14px;
+          font-weight: 900;
+          line-height: 18px;
+        }
+      }
+
+      .item .picture {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
 
         .text p {
           color: #323232;

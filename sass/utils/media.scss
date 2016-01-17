@@ -1,0 +1,59 @@
+@media screen and (max-width: 767px){
+  .h-page {
+    padding-top: 0;
+  }
+  header .left {
+    padding-left: 50px;
+  }
+
+  header .search {
+    padding-left: 55px;
+    .submit {
+      top: 25px;
+    }
+  }
+
+  main .info {
+    height: 100%;
+    .text {
+padding-bottom: 0;
+    .block1 {
+      .price {
+        font-size: 20px;
+      }
+      .after {
+        line-height: 18px;
+        font-weight: $font-weight-h3;
+      }
+    }
+
+    .block2 {
+      .price {
+        font-size: 20px;
+      }
+      .after {
+        line-height: 18px;
+        font-weight: $font-weight-p;
+      }
+    }
+
+  }
+    .item{
+      width: 400px;
+    }
+    padding-bottom: 25px;
+
+  }
+
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}

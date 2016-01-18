@@ -112,7 +112,7 @@ main {
 
     .picture-big{
       padding-top: 25px;
-      width: 45%;
+      width: 40%;
       float: left;
       color: #323232;
 
@@ -140,15 +140,23 @@ main {
         line-height: 18px;
       }
 
-      .picture-big-icon div {
+
+    }
+
+    .picture-small{
+      padding-top: 20px;
+      width: 60%;
+      float: left;
+
+      .picture-small-icon div {
         display: inline-block;
-        margin: 10px 10px;
+        margin: 5px 5px;
 
         .text {
-          width: 200px;
+          width: 120px;
           display: block;
           margin-right: 5px;
-          margin-bottom: 10px;
+          margin-bottom: 5px;
           text-align: $text-c;
 
           &:nth-child(3n+1) {
@@ -156,19 +164,12 @@ main {
           }
 
           .price{
-            width: 30%;
-            float: left;
             text-align: $text-l;
             color: #4c93c3;
             font-family: $font;
             font-size: 14px;
             font-weight: 900;
             line-height: 18px;
-          }
-          .btn-price{
-            width: 50%;
-            float: left;
-            text-align: $text-l
           }
         }
 
@@ -181,22 +182,81 @@ main {
           .text p {
             color: #323232;
             font-family: $font;
-            font-size: 14px;
+            font-size: 12px;
             font-weight: $font-weight-h3;
-            line-height: 18px;
+            line-height: 16px;
           }
         }
+      }
+
+    }
+
+
+  }
+
+  .tele{
+    height: 100%;
+    background: #135d92;
+    //opacity: 0.5;
+
+    h2{
+      padding-left: 55px;
+      text-align: $text-l;
+      color: $color-white;
+      font-family: $font;
+      font-size: 36px;
+      font-weight: 100;
+      line-height: 48px;
+    }
+
+    .video-big{
+      padding-top: 25px;
+      width: 45%;
+      float: left;
+      color: #323232;
+
+
+      h3{
+        color: $color-white;
+        font-family: $font;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 48px;
+      }
+      p{
+        text-align: $text-l;
+        padding: 0 65px 0 65px;
+        color: $color-white;
+        font-family: $font;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
       }
     }
 
     .picture-small{
+      padding-top: 20px;
       width: 55%;
       float: left;
 
+      .picture-small-icon div {
+        display: inline-block;
+        margin: 5px 5px;
+
+        &:nth-child(2n+1) {
+          margin-right: 0;
+        }
+
+        .item .video {
+          position: relative;
+          overflow: hidden;
+        }
+        video{
+          height: 161px;
+        }
+      }
 
     }
-
-
   }
 
 
